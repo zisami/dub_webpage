@@ -4,7 +4,8 @@
 <section id="hero">
 	<div class="bg-color" />
 	<div class="wrapper">
-		<h1>Test</h1>
+		<h1>Dubstetten</h1>
+		<h2>nature - music -family</h2>
 		<h3>21. &amp; 22. July 2023</h3>
 	</div>
 </section>
@@ -31,8 +32,21 @@
 		z-index: 1;
 		color: #ffffff;
 	}
+
+	h1 {
+		text-align: center;
+		font: 80px own;
+	}
+
+	h2 {
+		text-align: center;
+		font: 30px own;
+	}
+
 	h3 {
 		text-align: center;
+		margin-top: 30%;
+		font: 40px own;
 	}
 	.bg-color {
 		position: absolute;
