@@ -4,7 +4,7 @@
 <section id="hero">
 	<div class="bg-color" />
 	<div class="wrapper">
-		<img src="img/dubstetten_hero.svg" alt="Dubstetten 2023 nature - music - family" />
+		<h1>Test</h1>
 		<h3>21. &amp; 22. July 2023</h3>
 	</div>
 </section>
