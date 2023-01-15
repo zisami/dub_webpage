@@ -15,21 +15,16 @@
 	<hr />
 
 	<div class="lineup-list">
-		<div>
-			<div class="icon"><FaCompactDisc /></div>
-			<h4>Selectaz</h4>
-			<p>Artist 1</p>
-		</div>
-		<div>
-			<div class="icon"><FaGuitar /></div>
-			<h4>Bands</h4>
-			<p>Gustl Blue</p>
-		</div>
-		<div>
-			<div class="icon"><FaPrayingHands /></div>
-			<h4>Workshops</h4>
-			<p>Kinderschminken</p>
-		</div>
+
+		<a href="https://lionsdensound.bandcamp.com/">
+			<img src="img/lions_den_icon.jpeg">
+		</a>
+		<a href="https://wickedandbonny.bandcamp.com/">
+			<img src="img/wckd-nd-bnny.png">
+		</a>
+		<a href="https://wickedandbonny.bandcamp.com/">
+			<img src="img/danubian_icon.jpeg">
+		</a>
 	</div>
 </section>
 
@@ -38,18 +33,15 @@
 		background-color: #f7f7f7;
 	}
 	.lineup-list {
-		display: grid;
-		grid-template-columns: 1fr;
+		display: flex;
+		height: 40vwpx;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
-	.lineup-list > div {
-		display: grid;
-		grid-template-columns: 1fr;
-		justify-items: center;
+
+	img {
+		width: 10rem;
+		margin: 0 1rem;
+		border-radius: 10%;
 	}
-	.icon {
-		color: #2196f3;
-		width: 3rem;
-		height: 3rem;
-		margin-bottom: 3rem;
-	}
+
 </style>

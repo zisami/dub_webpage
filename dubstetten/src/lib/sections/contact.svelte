@@ -8,8 +8,12 @@
 	<p>Wo auch immer</p>
 	<hr />
 	<div class="logos">
-		<img src="img/eichhorn_icon.png" alt="Eichhornhof Icon" />
-		<img src="img/danub_icon.png" alt="Danub Icon" />
+		<a href="https://eichhornhof.at/index.html">
+			<img src="img/eichhorn_icon.png" alt="Eichhornhof Icon" />
+		</a>
+		<a href="https://www.soundsystem.world/soundsystems/danubian-dub-soundsystem/">
+			<img src="img/danubian_icon.jpeg" alt="Danubian Icon" />
+		</a>
 	</div>
 
 	<OpenMap />
@@ -23,7 +27,8 @@
 		margin: 2rem 0;
 	}
 	.logos img {
-		width: 5rem;
+		width: 10rem;
 		margin: 0 1rem;
+		border-radius: 50%;
 	}
 </style>

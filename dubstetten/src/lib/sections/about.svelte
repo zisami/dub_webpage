@@ -35,7 +35,6 @@
 		grid-template-rows: 3fr 2fr;
 		grid-gap: 1rem;
 	}
-
 	.impressions-desktop > div {
 		background-size: cover;
 		background-position: center;
@@ -52,7 +51,6 @@
 			grid-template-rows: 3fr 2fr;
 			grid-gap: 1rem;
 		}
-
 			.impressions-mobile > div {
 			background-size: cover;
 			background-position: center;

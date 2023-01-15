@@ -1,13 +1,14 @@
 <script>
+
 </script>
 
 <section id="hero">
 	<div class="bg-color" />
-	<div class="wrapper">
-		<h1>Dubstetten</h1>
-		<h2>nature - music -family</h2>
-		<h3>21. &amp; 22. July 2023</h3>
-	</div>
+		<div class="wrapper">
+			<h2>nature - music -family</h2>
+			<h1>Dubstetten</h1>
+			<h3>21. &amp; 22. July 2023</h3>
+		</div>
 </section>
 
 <style>
