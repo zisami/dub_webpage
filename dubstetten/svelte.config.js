@@ -11,5 +11,16 @@ const config = {
 		adapter: adapter()
 	}
 };
+// https://github.com/sveltejs/kit/tree/master/packages/adapter-static#spa-mode
+// hab da an fehler gehabt
+// Original:
 
-export default config;
+//export default config;
+
+export default {
+	kit: {
+	  adapter: adapter({
+		fallback: '200.html'
+	  })
+	}
+  };
