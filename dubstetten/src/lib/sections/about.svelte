@@ -40,7 +40,7 @@
 		background-position: center;
 		min-height: 22rem;
 	}
-	@media (max-width: 360px){
+	@media (max-width: 500px){
 		.impressions-desktop{
 			display: none;
 		}

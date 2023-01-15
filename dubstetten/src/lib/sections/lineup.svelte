@@ -14,16 +14,32 @@
 	</p>
 	<hr />
 
-	<div class="lineup-list">
-
+	<div class="lineup-list-desktop">
 		<a href="https://lionsdensound.bandcamp.com/">
-			<img src="img/lions_den_icon.jpeg">
+			<img src="img/lions_den_icon.jpeg" alt="lion icon">
 		</a>
 		<a href="https://wickedandbonny.bandcamp.com/">
-			<img src="img/wckd-nd-bnny.png">
+			<img src="img/wckd-nd-bnny.png" alt="wicked icon">
+		</a>
+				<a href="https://wickedandbonny.bandcamp.com/">
+			<img src="img/danubian_icon.jpeg" alt="danubian icon">
 		</a>
 		<a href="https://wickedandbonny.bandcamp.com/">
-			<img src="img/danubian_icon.jpeg">
+			<img src="img/danubian_icon.jpeg" alt="wicked icon">
+		</a>
+	</div>
+	<div class="lineup-list-mobile">
+		<a href="https://lionsdensound.bandcamp.com/">
+			<img src="img/lions_den_icon.jpeg" alt="lion icon">
+		</a>
+		<a href="https://wickedandbonny.bandcamp.com/">
+			<img src="img/wckd-nd-bnny.png" alt="wicked icon">
+		</a>
+		<a href="https://wickedandbonny.bandcamp.com/">
+			<img src="img/danubian_icon.jpeg" alt="danubian icon">
+		</a>
+		<a href="https://wickedandbonny.bandcamp.com/">
+			<img src="img/danubian_icon.jpeg" alt="wicked icon">
 		</a>
 	</div>
 </section>
@@ -32,16 +48,40 @@
 	#lineup {
 		background-color: #f7f7f7;
 	}
-	.lineup-list {
+
+	.lineup-list-mobile{
+		display: none;
+	}
+
+	.lineup-list-desktop {
 		display: flex;
-		height: 40vwpx;
-		grid-template-columns: 1fr 1fr 1fr;
+		height: 40vw;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
 	}
 
 	img {
 		width: 10rem;
-		margin: 0 1rem;
 		border-radius: 10%;
 	}
 
+	@media (max-width: 500px){
+
+		.lineup-list-desktop{
+			display: none;
+		}
+
+		.lineup-list-desktop {
+			display: flex;
+			height: 40vw;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr 1fr;
+		}
+
+		img {
+			width: 10rem;
+			margin: 0 1rem;
+			border-radius: 10%;
+		}
+	}
 </style>
