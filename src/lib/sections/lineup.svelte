@@ -13,7 +13,7 @@
   </p>
   <hr />
 
-  <div id="line-up-box">
+  <div class="line-up-box">
     <img src="img/lions_den_icon.jpeg" alt="lion icon" />
     <p>
       Lion’s Den is a label, a sound system, a studio and a production and promotion force.
@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div id="line-up-box">
+  <div class="line-up-box">
     <img src="img/wckd-nd-bnny.png" alt="wicked icon">
     <p>
       Lion’s Den is a label, a sound system, a studio and a production and promotion force.
@@ -41,7 +41,7 @@
 </section>
 
 <style>
-  #line-up-box * {
+  .line-up-box * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: solid;
@@ -49,7 +49,7 @@
   padding: 0;  
 }
 
-#line-up-box {
+.line-up-box {
 	width:50%;
   text-align: center;
 	margin:0 auto;
@@ -59,24 +59,24 @@
   border-radius: 0;
 }
 
-#line-up-box img{
+.line-up-box img{
 	width:100%;
   float:left;
 }
 
-#line-up-box p { 
+.line-up-box p { 
 	width:100%;
   text-align: center;
   float:right;
   padding:1em;
 }
 
-#line-up-box div { 
+.line-up-box div { 
   text-align:center;
   width:100%;
 }
 
-#line-up-box div iframe { 
+.line-up-box div iframe { 
   border: 0; 
 
   width: 98%;
