@@ -1,5 +1,5 @@
 <script>
-    import Reviews from '$lib/sections/reviews.svelte';
+  import Reviews from "$lib/sections/reviews.svelte";
 </script>
 
 <!-- Sections -->
