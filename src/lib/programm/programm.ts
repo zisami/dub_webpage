@@ -2,7 +2,7 @@ export type ProgrammItem = {
     title: string;
     description: string;
     startsAt: string;
-    slug: string;
+    slug?: string;
     thumbnail: string;
 };
 
@@ -18,7 +18,6 @@ export const programm: ProgrammItem[] = [
         title: 'Wicked and Bonny',
         description: 'Wicked and Bonny dubs your Brain out',
         startsAt: '22:00',
-        slug: 'wicked-and-bonny',
         thumbnail: 'img/wckd-nd-bnny.png',
     },
     {

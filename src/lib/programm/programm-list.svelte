@@ -5,7 +5,13 @@
 
 <div id="programm-list">
     {#each programm as programItem}
-        <ProgrammCard {programItem} />
+        {#if programItem.slug}
+            <a href={programItem.slug}>
+                <ProgrammCard {programItem} />
+            </a>
+        {:else}
+            <ProgrammCard {programItem} />
+        {/if}
     {/each}
 </div>
 

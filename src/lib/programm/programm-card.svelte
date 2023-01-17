@@ -1,4 +1,5 @@
 <script lang="ts">
+    import type { ProgrammItem } from '$lib/programm/programm';
     export let programItem: ProgrammItem;
 </script>
 
