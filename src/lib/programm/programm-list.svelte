@@ -6,7 +6,7 @@
 <div id="programm-list">
     {#each programm as programItem}
         {#if programItem.slug}
-            <a href={programItem.slug}>
+            <a href={`lineup/${programItem.slug}`}>
                 <ProgrammCard {programItem} />
             </a>
         {:else}

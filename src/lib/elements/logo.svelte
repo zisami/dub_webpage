@@ -1,4 +1,8 @@
-<img src="img/dubstetten_hero.svg" alt="dubstetten logo" id="logo" />
+<script>
+    import logoUrl from '$lib/assets/img/dubstetten.svg';
+</script>
+
+<img src={logoUrl} alt="dubstetten logo" id="logo" />
 
 <style>
     #logo {

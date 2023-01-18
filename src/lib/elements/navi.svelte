@@ -1,9 +1,9 @@
 <nav>
     <ul>
-        <li><a href="tickets">Tickets</a></li>
-        <li><a href="lineup">Line-Up</a></li>
-        <li><a href="about">Info</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li><a href="/tickets">Tickets</a></li>
+        <li><a href="/lineup">Line-Up</a></li>
+        <li><a href="/about">Info</a></li>
+        <li><a href="/contact">Contact</a></li>
     </ul>
 </nav>
 
