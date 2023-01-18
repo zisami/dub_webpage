@@ -3,13 +3,29 @@
     import Header from "$lib/elements/header.svelte";
     import Footer from "$lib/elements/footer.svelte";
     import TopButton from "$lib/elements/top-button.svelte";
+    // import CookieConsent from "svelte-tailwind-cookieconsent/src";       // Cookie Consent: des haut ma ned hin, gehört des da her?
+    // https://github.com/2BAYT/svelte-tailwind-cookieconsent
 </script>
 
 <svelte:head>
     <title>Dubstetten 23</title>
     <meta name="description" content="The Dubest Festival in Austria" />
 </svelte:head>
+
 <div id="page-wrapper">
+    <!-- <CookieConsent
+        allowButtonText={"Allow"}
+        closeText={"Close"}
+        descriptionText={"We are using cookies to improve your experience  "}
+        cookiePolicyText={"Learn More"}
+        cookiePolicyUrl={"https://www.example.com/"}
+        bgColor={"bg-gray-200"}
+        buttonTextColor={"text-white"}
+        closeTextColor={"text-green-500"}
+        buttonBgColor={"bg-green-500"}
+        descriptionTextColor={"text-gray-600"}
+    /> -->
+
     <Header />
 
     <slot />

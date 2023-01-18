@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { ProgrammItem } from '$lib/programm/programm';
+    import type { ProgrammItem } from "$lib/programm/programm";
     export let programItem: ProgrammItem;
 </script>
 
@@ -10,7 +10,9 @@
     <div class="content">
         <h2>{programItem.title}</h2>
         <p>{programItem.description}</p>
+
         <div class="start">{programItem.startsAt}</div>
+        <!--würd ich gerne in eine box rechts unten packen -->
     </div>
 </div>
 
@@ -39,4 +41,11 @@
         height: 100%;
         object-fit: cover;
     }
+    /* .start {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    } */
 </style>

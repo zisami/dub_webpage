@@ -57,7 +57,4 @@
         background-color: #414a4f;
         opacity: 0.35;
     }
-    img {
-        max-width: 300px;
-    }
 </style>

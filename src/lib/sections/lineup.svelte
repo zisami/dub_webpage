@@ -15,40 +15,6 @@
 </section>
 
 <style>
-    .line-up-box {
-        width: 50%;
-        text-align: center;
-        margin: 0 auto;
-        border: solid #0a0909;
-        box-shadow: 20px 20px 20px #999999;
-        overflow: hidden;
-        border-radius: 0;
-    }
-
-    .line-up-box img {
-        width: 100%;
-        float: left;
-    }
-
-    .line-up-box p {
-        width: 100%;
-        text-align: center;
-        float: right;
-        padding: 1em;
-    }
-
-    .line-up-box div {
-        text-align: center;
-        width: 100%;
-    }
-
-    .line-up-box div iframe {
-        border: 0;
-
-        width: 98%;
-        height: 42px;
-    }
-
     #lineup {
         background-color: #f7f7f7;
     }
