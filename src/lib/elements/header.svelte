@@ -1,25 +1,25 @@
 <script>
-    import Navi from "$lib/elements/navi.svelte";
-    import Logo from "$lib/elements/logo.svelte";
+  import Navi from "$lib/elements/navi.svelte";
+  import Logo from "$lib/elements/logo.svelte";
 </script>
 
 <header id="top">
-    <Logo />
-    <Navi />
+  <Logo />
+  <Navi />
 </header>
 
 <style>
-    header {
-        top: 0;
-        left: 0;
-        width: 100%;
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
 
-        background-color: rgba(0, 0, 0, 0.1);
-        z-index: 100;
-    }
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
 </style>
