@@ -1,31 +1,17 @@
 <script>
-    import FaCompactDisc from 'svelte-icons/fa/FaCompactDisc.svelte';
-    import FaGuitar from 'svelte-icons/fa/FaGuitar.svelte';
-    import FaPrayingHands from 'svelte-icons/fa/FaPrayingHands.svelte';
+    import FaCompactDisc from "svelte-icons/fa/FaCompactDisc.svelte";
+    import FaGuitar from "svelte-icons/fa/FaGuitar.svelte";
+    import FaPrayingHands from "svelte-icons/fa/FaPrayingHands.svelte";
 </script>
 
 <section id="lineup">
     <h3 class="title">Line-Up</h3>
-    <p>Don't miss out on this incredible opportunity to see these amazing artists in one night, and be prepared for an unforgettable night of dub music!"</p>
+    <p>
+        Don't miss out on this incredible opportunity to see these amazing
+        artists in one night, and be prepared for an unforgettable night of dub
+        music!"
+    </p>
     <hr />
-
-    <div class="line-up-box">
-        <img src="img/lions_den_icon.jpeg" alt="lion icon" />
-        <p>Lion’s Den is a label, a sound system, a studio and a production and promotion force.</p>
-        <div>
-            <iframe title="Lion's Den" src="https://bandcamp.com/EmbeddedPlayer/album=677397082/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless>
-                <a href="https://lionsdensound.bandcamp.com/album/lionschoice004-natural-tribulation-ft-black-omolo-steamers-meditation"> LIONSCHOICE004 - Natural Tribulation ft. Black Omolo - Steamers Meditation by Lion&#39;s Den </a>
-            </iframe>
-        </div>
-    </div>
-
-    <div class="line-up-box">
-        <img src="img/wckd-nd-bnny.png" alt="wicked icon" />
-        <p>Lion’s Den is a label, a sound system, a studio and a production and promotion force.</p>
-        <div>
-            <iframe title="Wicked and Bonny" style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=540571743/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://wickedandbonny.bandcamp.com/album/ich-bin-wie-ich-bin-stepwise-records">Ich Bin Wie Ich Bin (Stepwise Records) by Wicked and Bonny feat. Benjamin Stötter</a></iframe>
-        </div>
-    </div>
 </section>
 
 <style>
