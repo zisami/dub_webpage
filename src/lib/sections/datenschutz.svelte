@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section id="impressum">
+<section id="datenschutz">
     <div class="wrapper">
         <h1>Impressum</h1>
 

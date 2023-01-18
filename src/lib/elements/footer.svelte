@@ -4,19 +4,11 @@
 </script>
 
 <footer>
-  <div class="social">
-    <a
-      class="icon"
-      href="https://facebook.com"
-      target="_blank"
-      rel="noopener noreferrer"><FaFacebookSquare /></a>
-    <a
-      class="icon"
-      href="https://github.com/agentgoodbee?tab=repositories"
-      target="_blank"
-      rel="noopener noreferrer"><FaGithub /></a>
-    <a href="impressum"> Impressum</a>
-  </div>
+  <ul>
+    <li><a href="impressum"> Impressum</a></li>
+    <li><a href="datenschutz"> Datenschutz</a></li>
+    <ul />
+  </ul>
 </footer>
 
 <style>
@@ -27,16 +19,18 @@
     text-align: center;
     color: #fff;
     background-color: #414a4f;
-    padding: 60px 0;
+    padding: 20px 0;
   }
-  .social {
+
+  ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  .icon {
-    width: 3rem;
-    height: 3rem;
-    margin: 1rem;
+  li {
+    list-style-type: none;
+    margin: 0 0.5rem;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
   }
 </style>
