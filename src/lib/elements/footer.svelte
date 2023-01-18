@@ -9,14 +9,13 @@
       class="icon"
       href="https://facebook.com"
       target="_blank"
-      rel="noopener noreferrer"><FaFacebookSquare /></a
-    >
+      rel="noopener noreferrer"><FaFacebookSquare /></a>
     <a
       class="icon"
       href="https://github.com/agentgoodbee?tab=repositories"
       target="_blank"
-      rel="noopener noreferrer"><FaGithub /></a
-    >
+      rel="noopener noreferrer"><FaGithub /></a>
+    <a href="impressum"> Impressum</a>
   </div>
 </footer>
 
