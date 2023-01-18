@@ -1,6 +1,6 @@
 <script>
-    import Navi from '$lib/elements/navi.svelte';
-    import Logo from '$lib/elements/logo.svelte';
+    import Navi from "$lib/elements/navi.svelte";
+    import Logo from "$lib/elements/logo.svelte";
 </script>
 
 <header id="top">
