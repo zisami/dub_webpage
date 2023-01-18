@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   const settings = {
     headers: {
-      Authorization: "Bearer VNXO5OAWX24GXLGPSDAW",
+      Authorization: "Bearer ",
     },
   };
   type Ticket = {

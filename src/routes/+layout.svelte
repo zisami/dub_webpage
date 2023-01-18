@@ -1,8 +1,8 @@
 <script lang="ts">
-    import '../app.css';
-    import Header from '$lib/elements/header.svelte';
-    import Footer from '$lib/elements/footer.svelte';
-    import TopButton from '$lib/elements/top-button.svelte';
+    import "../app.css";
+    import Header from "$lib/elements/header.svelte";
+    import Footer from "$lib/elements/footer.svelte";
+    import TopButton from "$lib/elements/top-button.svelte";
 </script>
 
 <svelte:head>
@@ -24,8 +24,5 @@
         flex-direction: column;
         justify-content: space-between;
         min-height: 100vh;
-    }
-    #page-wrapper > section {
-        flex: 1;
     }
 </style>
