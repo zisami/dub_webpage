@@ -17,9 +17,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.4rem 1.8rem;
 
     background-color: hsla(0, 4%, 5%, 0.597);
     z-index: 100;
+  }
+  @media (min-width: 400px) {
+    header {
+      padding: 0.4rem 1.5rem;
+    }
   }
 </style>
