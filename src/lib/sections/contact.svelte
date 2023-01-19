@@ -4,24 +4,52 @@
 
 <section id="contact" class="contact">
   <h3 class="title">Contact</h3>
-  <p>Verein BELE</p>
-  <p>Wo auch immer</p>
-  <hr />
-  <div class="logos">
-    <a href="https://eichhornhof.at/index.html">
-      <img src="img/eichhorn_icon.png" alt="Eichhornhof Icon" />
-    </a>
-    <a
-      href="https://www.soundsystem.world/soundsystems/danubian-dub-soundsystem/"
-    >
-      <img src="img/danubian_icon.jpeg" alt="Danubian Icon" />
-    </a>
-  </div>
+  <h4>Verein BELE</h4>
+  <p>
+    Verein zur Förderung und Bewusstseinsbildung <br /> für ein glückliches
+    Leben
+    <br />
+    Wimbergeramt 22
+    <br />
+    4392 Dorfstetten
+  </p>
 
+  <h4>Eichhornhof - Gemüse mit Herz</h4>
+  <p>
+    Wimbergeramt 22
+    <br />
+    4392 Dorfstetten
+    <br />
+    Gemüsehandwerk aus dem Waldviertel
+    <br />
+    Wir vom Eichhornhof haben uns vor 2 Jahren der Landwirtschaft zugewandt, mit
+    dem Wunsch sinnvolle Arbeit zu tun und gut mit der Erde umzugehen.
+  </p>
+  <a class="logos" href="https://eichhornhof.at/index.html">
+    <img src="img/eichhorn_icon.png" alt="Eichhornhof Icon" />
+  </a>
+
+  <h4>Danubian Dub <br />Soundsystem</h4>
+  <p>
+    blala
+    <br />
+    Wien
+    <br />
+    ist anders
+  </p>
+  <a
+    class="logos"
+    href="https://www.soundsystem.world/soundsystems/danubian-dub-soundsystem/"
+  >
+    <img src="img/danubian_icon.jpeg" alt="Danubian Icon" />
+  </a>
   <OpenMap />
 </section>
 
 <style>
+  h4 {
+    margin: 1rem;
+  }
   .logos {
     display: flex;
     justify-content: center;

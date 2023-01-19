@@ -17,9 +17,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.4rem 1.8rem;
 
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: hsla(0, 4%, 5%, 0.597);
     z-index: 100;
   }
 </style>

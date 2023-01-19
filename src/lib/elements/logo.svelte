@@ -1,9 +1,11 @@
 <a href="hero">
-  <img src="img/dubstetten_hero.svg" alt="dubstetten logo" id="logo" />
+  <!-- <img src="img/dubstetten_hero.svg" alt="dubstetten logo" id="logo" /> -->
+  <p class="nav-logo-home">Dubstetten</p>
 </a>
 
 <style>
-  #logo {
-    width: 180px;
+  .nav-logo-home {
+    font: bold 40px own;
+    color: aquamarine;
   }
 </style>

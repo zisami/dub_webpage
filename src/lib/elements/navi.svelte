@@ -12,7 +12,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    height: 3rem;
+    height: 2rem;
   }
   ul {
     display: flex;
