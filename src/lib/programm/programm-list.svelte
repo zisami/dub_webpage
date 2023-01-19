@@ -18,9 +18,8 @@
 <style>
   #programm-list {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    padding: 1rem 2rem;
   }
 </style>

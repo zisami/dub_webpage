@@ -16,7 +16,7 @@ export const programm: ProgrammItem[] = [
   },
   {
     title: "Wicked and Bonny",
-    description: "Wicked and Bonny dubs your Brain out",
+    description: "Lion`s Den dubs your Brain out",
     startsAt: "22:00",
     thumbnail: "img/wckd-nd-bnny.png",
   },
