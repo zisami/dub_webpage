@@ -1,4 +1,5 @@
 <iframe
+  title="Dorfstetten Wimbergeramt"
   src="https://www.openstreetmap.org/export/embed.html?bbox=14.990222454071047%2C48.320101460128775%2C14.992684721946718%2C48.32113771199181&amp;layer=mapnik&amp;marker=48.32061958869159%2C14.99145358800888"
   width="100%"
   height="350px"
