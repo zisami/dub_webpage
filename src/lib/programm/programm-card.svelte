@@ -23,12 +23,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #eee;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     border-radius: 0rem;
     overflow: hidden;
     box-shadow: rgb(0, 0, 0, 0.1) 0.5rem 0 1rem;
     max-width: 80vw;
-    padding: 4px 4px;
   }
 
   .content {
@@ -45,7 +44,7 @@
   }
   @media screen and (min-width: 600px) {
     .programm-item {
-      min-width: 30vw;
+      max-width: 30vw;
     }
   }
   /* place timtable time
