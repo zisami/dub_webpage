@@ -2,7 +2,9 @@
     import logoUrl from '$lib/assets/img/dubstetten.svg';
 </script>
 
-<img src={logoUrl} alt="dubstetten logo" id="logo" />
+<a href="/">
+    <img src={logoUrl} alt="dubstetten logo" id="logo" />
+</a>
 
 <style>
     #logo {
