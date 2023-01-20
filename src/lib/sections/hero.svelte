@@ -17,14 +17,29 @@
 <style>
     #lp {
         position: absolute;
-        left: -25vw;
-        bottom: -40vw;
+        left: -50vw;
+        bottom: -60vw;
+        opacity: 0.2;
     }
     #lp img {
-        --lp-size: 100vw;
+        --lp-size: 200vw;
         width: var(--lp-size);
         height: var(--lp-size);
     }
+    @media screen and (min-width: 768px) {
+        #lp {
+            position: absolute;
+            left: -25vw;
+            bottom: -40vw;
+            opacity: 0.2;
+        }
+        #lp img {
+            --lp-size: 100vw;
+            width: var(--lp-size);
+            height: var(--lp-size);
+        }
+    }
+
     #hero {
         width: 100%;
         flex-grow: 1;
