@@ -54,9 +54,4 @@
         align-items: center;
         margin: 2rem 0;
     }
-    .logos img {
-        width: 10rem;
-        margin: 0 1rem;
-        border-radius: 50%;
-    }
 </style>

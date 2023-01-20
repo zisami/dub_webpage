@@ -26,8 +26,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .programm-item-wrapper:nth-child(even) .programm-item {
-    }
+
     .programm-item-wrapper::before {
         position: absolute;
         top: 0;

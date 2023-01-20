@@ -1,8 +1,6 @@
 <script lang="ts">
-    import ProgrammCard from '$lib/programm/programm-card.svelte';
     import { onMount } from 'svelte';
     import type { ProgrammItem } from '$lib/programm/programm';
-    import { programm } from '$lib/programm/programm';
     import type { PageData } from './$types';
     import Picture from '$lib/elements/picture.svelte';
 
