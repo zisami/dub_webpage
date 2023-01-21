@@ -59,6 +59,13 @@ export const programm: ProgrammItem[] = [
     thumbnail: danubianDub,
   },
   {
+    title: "Danubian Dub",
+    description: "Danubian Dub dubs your Brain out",
+    startsAt: "Sa. 22. July 2023 - 00 Uhr",
+    slug: "danubian-dub",
+    thumbnail: danubianDub,
+  },
+  {
     startsAt: "@Sunrise",
     title: "Sunrice Acid Joga",
     description: "Take Acid and do Yoga in the first light of the day",
