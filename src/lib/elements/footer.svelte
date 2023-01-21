@@ -5,7 +5,6 @@
     <ul>
         <li><a href="impressum"> Impressum</a></li>
         <li><a href="datenschutz"> Datenschutz</a></li>
-        <ul />
     </ul>
 </footer>
 

@@ -1,5 +1,5 @@
 <script>
-    import lp from '$lib/assets/img/dubstetten-lp.svg';
+    import lp from "$lib/assets/img/dubstetten-lp.svg";
 </script>
 
 <section id="hero">
@@ -10,7 +10,7 @@
     <div class="wrapper">
         <h1>Dubstetten</h1>
         <h2>nature - music -family</h2>
-        <h4>21. &amp; 22. July 2023</h4>
+        <h3>21. &amp; 22. July 2023</h3>
     </div>
 </section>
 
@@ -56,8 +56,18 @@
         position: relative;
 
         background: #0f0c29; /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(
+            to right,
+            #24243e,
+            #302b63,
+            #0f0c29
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #24243e,
+            #302b63,
+            #0f0c29
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
     .wrapper {
         display: grid;
