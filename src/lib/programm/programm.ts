@@ -67,18 +67,18 @@ export const programm: ProgrammItem[] = [
   },
   {
     startsAt: "@Sunrise",
-    title: "Sunrice Acid Joga",
-    description: "Take Acid and do Yoga in the first light of the day",
+    title: "Sunrice Joga",
+    description: "Yoga in the first light of the day",
   },
   {
     startsAt: "8:00 - 10:00",
-    title: "Bong Breakfast",
-    description: "Coffee, Sunyside Up and a Bong",
+    title: " Breakfast",
+    description: "Coffee, Sunyside Up",
   },
   {
     startsAt: "11:00 - 14:00",
-    title: "Bud Brunch",
-    description: "Eat, Drink and Smoke",
+    title: "Brunch",
+    description: "Eat, Drink",
   },
   {
     title: "Lion`s Den",
