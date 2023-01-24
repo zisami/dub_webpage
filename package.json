@@ -39,6 +39,7 @@
     "@svelteuidev/composables": "^0.8.0",
     "@svelteuidev/core": "^0.8.0",
     "svelte-icons": "^2.1.0",
+    "svelte-media-queries": "^1.5.2",
     "svelte-tailwind-cookieconsent": "^0.0.15"
   }
 }

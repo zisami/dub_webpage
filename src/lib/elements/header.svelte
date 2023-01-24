@@ -1,6 +1,8 @@
 <script>
   import Navi from "$lib/elements/navi.svelte";
+
   import Logo from "$lib/elements/logo.svelte";
+  let open = false;
 </script>
 
 <header id="top">
