@@ -1,29 +1,15 @@
-<nav>
-  <ul>
-    <li><a href="/tickets">Tickets</a></li>
-    <li><a href="/lineup">Line-Up</a></li>
-    <li><a href="/about">Info</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </ul>
-</nav>
+<script lang="ts">
+  import { Burger } from "@svelteuidev/core";
+  let opened = false;
+  import { Button, Divider, Menu } from "@svelteuidev/core";
+</script>
 
-<style>
-  nav {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    height: 2rem;
-  }
-  ul {
-    display: flex;
-  }
-
-  li {
-    list-style-type: none;
-    margin: 0 0.5rem;
-  }
-  a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-</style>
+<Menu>
+  <Burger {opened} on:click={() => (opened = !opened)} slot="control"
+    >menu</Burger
+  >
+  <Menu.Item root="a" href="/tickets">Tickets</Menu.Item>
+  <Menu.Item root="a" href="/lineup">Line-Up</Menu.Item>
+  <Menu.Item root="a" href="/about">Info</Menu.Item>
+  <Menu.Item root="a" href="/contact">Contact</Menu.Item>
+</Menu>
