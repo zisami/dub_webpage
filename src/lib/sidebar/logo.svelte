@@ -1,9 +1,9 @@
 <svg width="auto" height="30">
-    <text x="0" y="20" />
+  <text x="0" y="20" />
 </svg>
 
 <style>
-    text {
-        fill: currentColor;
-    }
+  text {
+    fill: currentColor;
+  }
 </style>
