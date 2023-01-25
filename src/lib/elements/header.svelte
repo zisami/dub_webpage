@@ -2,10 +2,8 @@
   import Logo from "$lib/elements/logo.svelte";
   import { onMount } from "svelte";
 
-  // Show mobile icon and display menu
   let showMobileMenu = false;
 
-  // List of navigation items
   const navItems = [
     { label: "Tickets", href: "/tickets" },
     { label: "Line-Up", href: "/lineup" },
@@ -13,18 +11,14 @@
     { label: "Contact", href: "/contact" },
   ];
 
-  // Mobile menu click event handler
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);
 
-  // Media match query handler
   const mediaQueryHandler = (e) => {
-    // Reset mobile state
     if (!e.matches) {
       showMobileMenu = false;
     }
   };
 
-  // Attach media query listener on mount hook
   onMount(() => {
     const mediaListener = window.matchMedia("(max-width: 767px)");
 
@@ -44,11 +38,20 @@
       <div class="middle-line" />
     </div>
     <ul class={`navbar-list${showMobileMenu ? " mobile" : ""}`}>
-      {#each navItems as item}
-        <li>
-          <a href={item.href}>{item.label}</a>
-        </li>
-      {/each}
+      {#if showMobileMenu}
+        {#each navItems as item}
+          <li>
+            <a on:click={handleMobileIconClick} href={item.href}>{item.label}</a
+            >
+          </li>
+        {/each}
+      {:else}
+        {#each navItems as item}
+          <li>
+            <a href={item.href}>{item.label}</a>
+          </li>
+        {/each}
+      {/if}
     </ul>
   </div>
 </nav>
@@ -69,7 +72,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: hsla(0, 4%, 5%, 0.597);
+    background-color: rgb(68, 66, 66);
     z-index: 100;
     padding: 0.5rem 1rem;
   }
@@ -152,7 +155,7 @@
   }
 
   .navbar-list.mobile {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     position: fixed;
     display: block;
     height: calc(100% - 3rem);
