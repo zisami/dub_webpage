@@ -3,9 +3,9 @@
 </script>
 
 <section id="hero">
-  <div id="lp">
+  <!-- <div id="lp">
     <img class="rotating" src={lp} alt="Dubstetten LP" />
-  </div>
+  </div> -->
 
   <div class="wrapper">
     <h1>Dubstetten</h1>
@@ -85,12 +85,6 @@
   h2 {
     text-align: center;
     font: 30px own;
-  }
-
-  h4 {
-    text-align: center;
-    margin-top: 30%;
-    font: 40px own;
   }
 
   @keyframes rotating {
