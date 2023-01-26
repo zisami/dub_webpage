@@ -9,14 +9,12 @@ body {
   box-sizing: border-box;
 }
 
-
-
 /*-------------
  	General
 -------------*/
 @font-face {
   font-family: "own";
-  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
     url("/font/Aladin-Regular.ttf");
   font-display: swap;
 }
