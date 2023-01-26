@@ -3,9 +3,9 @@
 </script>
 
 <section id="hero">
-  <!-- <div id="lp">
+  <div id="lp">
     <img class="rotating" src={lp} alt="Dubstetten LP" />
-  </div> -->
+  </div>
 
   <div class="wrapper">
     <h1>Dubstetten</h1>
@@ -55,18 +55,18 @@
 
     position: relative;
 
-    background: #0f0c29; /* fallback for old browsers */
+    background: #a8a6c0; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #24243e,
-      #302b63,
-      #0f0c29
+      #ffebb5,
+      #f3c491,
+      #e78787
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #24243e,
-      #302b63,
-      #0f0c29
+      #ffebb5,
+      #f3c491,
+      #e78787
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   .wrapper {
