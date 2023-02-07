@@ -72,9 +72,9 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(68, 66, 66);
+    background-color: #615a51b1;
     z-index: 100;
-    padding: 0.5rem 1rem;
+    padding: 2.2rem 1rem;
   }
 
   .inner {
@@ -158,7 +158,7 @@
     background-color: rgba(0, 0, 0, 0.85);
     position: fixed;
     display: block;
-    height: calc(100% - 3rem);
+    height: calc(100% - 4.4rem);
     bottom: 0;
     left: 0;
   }

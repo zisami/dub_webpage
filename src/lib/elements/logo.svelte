@@ -1,11 +1,13 @@
 <a href="/">
-  <!-- <img src="img/dubstetten_hero.svg" alt="dubstetten logo" id="logo" /> -->
-  <p class="nav-logo-home">Dubstetten</p>
+  <img
+    src="src/lib/assets/img/Logo_Mondsichel.webp"
+    alt="dubstetten home"
+    id="logo"
+  />
 </a>
 
 <style>
-  .nav-logo-home {
-    font: bold 40px own;
-    color: aquamarine;
+  img {
+    width: 150px;
   }
 </style>
