@@ -11,12 +11,13 @@
 <style>
   footer {
     display: flex;
+
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: #fff;
-    background-color: #414a4f;
-    padding: 20px 0;
+    background-color: #615a51b1;
+    padding: 1.6rem 1rem;
+    z-index: 100;
   }
 
   ul {
