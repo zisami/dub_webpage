@@ -17,7 +17,6 @@
   <slot />
 
   <Footer />
-  <TopButton />
 </div>
 
 <style>

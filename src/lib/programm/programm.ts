@@ -20,16 +20,10 @@ export const programm: ProgrammItem[] = [
     startsAt: "February 2023",
     title: "Early Dub Tickets",
     description:
-      "Book early and save 30% on your ticket! Limited to 100 tickets.",
+      "Book early and save 25% on your ticket! Limited to 100 tickets.",
   },
   {
-    startsAt: "May 2023",
-    title: "Final Lineup",
-    description:
-      "Book early and save 30% on your ticket! Limited to 100 tickets.",
-  },
-  {
-    title: "Great Dub Opening 2023",
+    title: "Grand Dub Opening",
     startsAt: "Fr. 21. July 2023 - 14 Uhr",
   },
   {

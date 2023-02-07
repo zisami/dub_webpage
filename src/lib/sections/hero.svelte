@@ -7,7 +7,7 @@
   <div class="wrapper">
     <img
       alt="Dubstetten Baumkreis"
-      src="src/lib/assets/img/Logo_Dubstetten_largebaumkreis.svg"
+      src="src/lib/assets/img/Logo_Dubstetten_smallbaumkreis.svg"
     />
     <h2>nature - music -family</h2>
     <h3>21. &amp; 22. July 2023</h3>
@@ -44,7 +44,7 @@
   }
 
   .wrapper {
-    width: 50%;
+    width: 50vw;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;

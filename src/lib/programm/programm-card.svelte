@@ -56,22 +56,21 @@
     margin-bottom: -3.5rem;
     z-index: 2;
     border-radius: 2rem;
-    border: 2px solid #182848;
   }
   .programm-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #f4d03f;
-    background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+    background-color: #ff9001;
+    background-image: linear-gradient(132deg, #fff557db 0%, #e09c31ab 100%);
 
     margin: 1rem 1rem;
     border-radius: 0rem;
     overflow: hidden;
     box-shadow: rgb(0, 0, 0, 0.1) 0.5rem 0 1rem;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 1rem;
     position: relative;
   }
 </style>
