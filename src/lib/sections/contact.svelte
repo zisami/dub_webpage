@@ -8,7 +8,7 @@
 <section id="contact" class="contact">
   <div
     class="background-image"
-    style="background-image: url(src/lib/assets/img/kontakt.jpg);"
+    style="background-image: url($lib/assets/img/kontakt.webp);"
   />
   <h3 class="title">Contact</h3>
   <h4>Verein BELE</h4>

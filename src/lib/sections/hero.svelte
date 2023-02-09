@@ -1,14 +1,11 @@
 <section id="hero">
   <div
     class="background-image"
-    style="background-image: url(src/lib/assets/img/hero2.jpg);"
+    style="background-image: url($lib/assets/img/hero2.webp);"
   />
 
   <div class="wrapper">
-    <img
-      alt="Dubstetten Baumkreis"
-      src="src/lib/assets/img/Logo_Dubstetten_baumkreis_weiß.svg"
-    />
+    <h1>Dubstetten</h1>
     <h2>nature - music -family</h2>
     <h3>21. &amp; 22. July 2023</h3>
   </div>

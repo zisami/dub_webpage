@@ -4,7 +4,7 @@
 <section id="lineup">
   <div
     class="background-image"
-    style="background-image: url(src/lib/assets/img/lineup.jpg);"
+    style="background-image: url($lib/assets/img/lineup.webp);"
   />
   <h3 class="title">Line-Up</h3>
   <p>

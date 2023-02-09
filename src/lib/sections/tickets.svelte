@@ -29,7 +29,7 @@
 <section id="tickets">
   <div
     class="background-image"
-    style="background-image: url(src/lib/assets/img/Facebook_Header.jpg);"
+    style="background-image: url($lib/assets/img/tickets.webp);"
   />
   <h3 class="title">Tickets</h3>
   <h4>Bald ist es soweit!</h4>
@@ -44,21 +44,21 @@
     Abenteuer gehen, indem du dir dein Ticket sicherst!
   </p>
   <hr />
-  {#if tickets}
+  <!-- {#if tickets}
     {#if tickets.free > 0}
       <p>
         <span class="free-tickets">{tickets.free}</span> Tickets left from total
         available
         <span class="total-tickets">{tickets.total} </span>Weekendpasses
-      </p>
-      <a
-        href="https://www.eventbrite.com/e/dubstetten-tickets-509314502387"
-        class="btn">Order Tickets</a
-      >
-    {:else}
+      </p> -->
+  <a
+    href="https://www.eventbrite.com/e/dubstetten-tickets-509314502387"
+    class="btn">Sicher dir ein Ticket</a
+  >
+  <!-- {:else}
       Sorry we are solde out.
     {/if}
-  {/if}
+  {/if} -->
 </section>
 
 <style>
@@ -87,6 +87,14 @@
   }
   .total-tickets {
     color: darkslategray;
+  }
+
+  .btn {
+    font: 28px own;
+    background-color: rgb(255, 128, 69);
+    color: black;
+    border-radius: 50%;
+    padding: 20px;
   }
 
   p {

@@ -8,7 +8,7 @@
 <section id="about">
   <div
     class="background-image"
-    style="background-image: url(src/lib/assets/img/info_b.jpg);"
+    style="background-image: url($lib/assets/img/info_b.webp);"
   />
   <h3 class="title">Info</h3>
   <h4>Hardfacts</h4>
