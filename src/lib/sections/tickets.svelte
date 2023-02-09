@@ -27,17 +27,21 @@
 </script>
 
 <section id="tickets">
+  <div
+    class="background-image"
+    style="background-image: url(src/lib/assets/img/Facebook_Header.jpg);"
+  />
   <h3 class="title">Tickets</h3>
+  <h4>Bald ist es soweit!</h4>
   <p>
-    What the Bot say: Sure! Here's a revised version of the text with a focus on
-    a dub event: "Hey there Dub Fans! Are you ready to experience the best in
-    Dub music? We've got a fantastic lineup of artists and DJs at our upcoming
-    Dub event, and you won't want to miss out. From heavy bass to smooth
-    grooves, our Dub event will have you dancing all night long. And with our
-    discounted ticket prices, it's the perfect opportunity to bring your friends
-    and make some new ones on the dance floor. Don't wait too long to get your
-    tickets - they're sure to go fast. We can't wait to welcome you to our Dub
-    event and bring the vibes together. See you on the dance floor!"
+    Am Wochenende 21.7.-22.7.2023 wird Dorfstetten, ein kleines Dorf in
+    Niederösterreich, wieder zu Dubstetten transformiert! Ein wichtiges Festival
+    für alle jene, die das Gute im Leben schätzen und genießen. Das Danubian Dub
+    Soundsystem begeistert uns mit internationalen Dub-Künstlern und bester
+    Dub-Musik. Außerdem erwartet euch lokale Live-Musik, unzählige Workshops,
+    Kinderaktivitäten, leckeres Essen und Jam Sessions im idyllischen,
+    naturbelassenen Umfeld des Eichhornhofs. Lasst uns gemeinsam auf dieses
+    Abenteuer gehen, indem du dir dein Ticket sicherst!
   </p>
   <hr />
   {#if tickets}
@@ -58,8 +62,24 @@
 </section>
 
 <style>
-  #tickets {
-    background-color: rgb(201, 201, 201);
+  h4 {
+    font: 28px own;
+    text-align: center;
+  }
+  p {
+    font: 20px dosis;
+    text-align: center;
+  }
+  #tickets .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: #2196f3;
+    opacity: 0.3;
+    z-index: -1;
   }
   .free-tickets {
     color: darkgreen;
@@ -67,5 +87,10 @@
   }
   .total-tickets {
     color: darkslategray;
+  }
+
+  p {
+    text-align: center;
+    font: 20px dosis;
   }
 </style>

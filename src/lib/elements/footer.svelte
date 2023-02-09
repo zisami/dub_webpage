@@ -30,5 +30,8 @@
   a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+
+    text-align: center;
+    font: dosis;
   }
 </style>

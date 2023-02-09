@@ -19,10 +19,18 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "dosis";
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url("/font/Dosis-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 html {
@@ -30,7 +38,6 @@ html {
   color: #555;
 }
 
-ul,
 nav {
   list-style: none;
 }

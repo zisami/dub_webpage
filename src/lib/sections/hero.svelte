@@ -1,13 +1,13 @@
 <section id="hero">
   <div
     class="background-image"
-    style="background-image: url(src/lib/assets/img/hero.jpeg);"
+    style="background-image: url(src/lib/assets/img/hero2.jpg);"
   />
 
   <div class="wrapper">
     <img
       alt="Dubstetten Baumkreis"
-      src="src/lib/assets/img/Logo_Dubstetten_smallbaumkreis.svg"
+      src="src/lib/assets/img/Logo_Dubstetten_baumkreis_weiß.svg"
     />
     <h2>nature - music -family</h2>
     <h3>21. &amp; 22. July 2023</h3>
@@ -32,24 +32,32 @@
   }
 
   #hero .background-image {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-color: #2196f3;
-    opacity: 0.6;
     z-index: -1;
+    background-color: #257dc5;
+    opacity: 0.6;
   }
 
   .wrapper {
-    width: 50vw;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     z-index: 1;
     color: #ffffff;
+
+    padding: 40px;
+    background-color: #474440ca;
+    border-radius: 100%;
+  }
+
+  img {
+    width: 100%;
+    margin-top: -3vw;
   }
 
   h1 {

@@ -191,6 +191,7 @@
 
     .navbar-list a {
       display: inline-flex;
+      color: #ffffff;
     }
   }
 </style>

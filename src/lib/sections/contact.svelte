@@ -6,6 +6,10 @@
 </script>
 
 <section id="contact" class="contact">
+  <div
+    class="background-image"
+    style="background-image: url(src/lib/assets/img/kontakt.jpg);"
+  />
   <h3 class="title">Contact</h3>
   <h4>Verein BELE</h4>
   <p>
@@ -16,6 +20,7 @@
     <br />
     4392 Dorfstetten
   </p>
+  <hr />
 
   <h4>Eichhornhof - Gemüse mit Herz</h4>
   <p>
@@ -34,15 +39,17 @@
 
   <h4>Danubian Dub <br />Soundsystem</h4>
   <p>
-    blala
+    DANUBIAN DUB SOUNDSYSTEM is an upcomming sound system, located in Vienna,
+    Austria.
     <br />
-    Wien
-    <br />
-    ist anders
+    The Danubian Dub Soundsystem itself is a handmade, custom built speakerstack,
+    trying to achieve sonic perfection with a solid, massive bass performance. We
+    think that speakers can be built a certain way, leading to a whole new level
+    of appreciation.
   </p>
   <a
     class="logos"
-    href="https://www.soundsystem.world/soundsystems/danubian-dub-soundsystem/"
+    href="https://instagram.com/danubian_dub_soundsystem?igshid=YmMyMTA2M2Y="
   >
     <Picture src={danubian} alt="Danubian Dub" />
   </a>
@@ -50,8 +57,24 @@
 </section>
 
 <style>
+  #contact .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: #2196f3;
+    opacity: 0.15;
+    z-index: -1;
+  }
   h4 {
-    margin: 1rem;
+    font: 28px own;
+    text-align: center;
+  }
+  p {
+    font: 20px dosis;
+    text-align: center;
   }
   .logos {
     display: flex;

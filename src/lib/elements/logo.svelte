@@ -1,6 +1,6 @@
 <a href="/">
   <img
-    src="src/lib/assets/img/Logo_Mondsichel_ws.webp"
+    src="src/lib/assets/img/Logo_Mondsichel_weiß_ohnetext.svg"
     alt="dubstetten home"
     id="logo"
   />
