@@ -1,7 +1,7 @@
 <section id="hero">
   <div
     class="background-image"
-    style="background-image: url($lib/assets/img/hero2.webp);"
+    style="background-image: url(src/lib/assets/img/hero2.webp);"
   />
 
   <div class="wrapper">

@@ -8,7 +8,7 @@
 <section id="contact" class="contact">
   <div
     class="background-image"
-    style="background-image: url($lib/assets/img/kontakt.webp);"
+    style="background-image: url(src/lib/assets/img/kontakt.webp);"
   />
   <h3 class="title">Contact</h3>
   <h4>Verein BELE</h4>
@@ -78,8 +78,9 @@
   }
   .logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
+    border-radius: 50%;
   }
 </style>

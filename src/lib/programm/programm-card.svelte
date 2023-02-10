@@ -66,7 +66,6 @@
     background-image: linear-gradient(132deg, #fff557db 0%, #e09c31ab 100%);
 
     margin: 1rem 1rem;
-    border-radius: 0rem;
     overflow: hidden;
     box-shadow: rgb(0, 0, 0, 0.1) 0.5rem 0 1rem;
     width: 100%;

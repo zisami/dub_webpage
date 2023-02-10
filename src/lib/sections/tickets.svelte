@@ -29,7 +29,7 @@
 <section id="tickets">
   <div
     class="background-image"
-    style="background-image: url($lib/assets/img/tickets.webp);"
+    style="background-image: url(src/lib/assets/img/tickets.webp);"
   />
   <h3 class="title">Tickets</h3>
   <h4>Bald ist es soweit!</h4>
