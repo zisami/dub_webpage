@@ -33,6 +33,7 @@
   </div>
   <div class="inner">
     <div
+      on:keypress={handleMobileIconClick}
       on:click={handleMobileIconClick}
       class={`mobile-icon${showMobileMenu ? " active" : ""}`}
     >

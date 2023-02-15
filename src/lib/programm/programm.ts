@@ -29,6 +29,19 @@ export const programm: ProgrammItem[] = [
     startsAt: "Fr. 22. July 2023 18 - 00 Uhr",
     slug: "danubian-dub",
     thumbnail: danubianDub,
+    longDesciption: `Soundsystem, producer & organizer of the event series „Vienna Dubwise“ and the „Dubstetten“ festival. Hosting local to international artists such as: Alpha Steppa, Sinai, Wicked & Bonny, Elemental Wave, Toroki & Isayah, Dubbing Sun, and many more.
+
+
+ 
+    Building their first sound in 2017, they gathered experience and started exploring their style. After all they realized, a custom sound system was necessary to deliver the experience they were looking for.
+    Fueled by their pursuit for sonic excellence, they embrace their passion of roots & dub music to create unifying and intense moments of musical experience.
+    referring to the UK’s 70’s „Roots & Culture“  sound system style, the artists are playing in front of the sound system. In comparison to modern DJ’s, every tune is played for itself without transitioning between them. 
+    
+    
+    Traditional in this sub-culture is the so called „Dubplate“. It is a music production, you only can experience on the event itself because it is not released yet. 
+    
+    After years of playing dubplates & productions from other artists, they decided to release their own music.
+    `,
   },
   {
     title: "Lion`s Den",

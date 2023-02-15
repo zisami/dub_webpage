@@ -87,7 +87,6 @@
   </ul>
   <br />
   <Picture src={img2} alt="Background Image" />
-  <hr />
   <p>
     Das Dubstetten Festival wird von dem gemeinnützigen Verein Bele organisiert,
     der Verein dient der Förderung und Bewusstseinsbildung für ein glückliches
@@ -101,6 +100,7 @@
 </section>
 
 <style>
+  p,
   ul {
     font: 20px dosis;
     padding: 10px;

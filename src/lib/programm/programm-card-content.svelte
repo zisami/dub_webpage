@@ -44,6 +44,7 @@
     font-size: 3rem;
   }
   p {
+    font-family: "dosis";
     text-align: center;
     color: #fff;
     font-size: 1.25rem;

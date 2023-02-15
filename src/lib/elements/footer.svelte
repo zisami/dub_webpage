@@ -1,4 +1,7 @@
 <script>
+  import Picture from "../elements/picture.svelte";
+
+  import comeon from "$lib/assets/img/come_on.png?width=320;480;640;768&format=webp;avif;jpg";
 </script>
 
 <footer>
@@ -6,9 +9,19 @@
     <li><a href="impressum"> Impressum</a></li>
     <li><a href="datenschutz"> Datenschutz</a></li>
   </ul>
+  <a href="https://www.come-on.at/"
+    ><img
+      src="/src/lib/assets/img/come_on.png"
+      alt="dubstetten home"
+      id="logo"
+    /></a
+  >
 </footer>
 
 <style>
+  img {
+    width: 200px;
+  }
   footer {
     display: flex;
 
@@ -24,6 +37,7 @@
     display: flex;
   }
   li {
+    font-family: "dosis";
     list-style-type: none;
     margin: 0 0.5rem;
   }
