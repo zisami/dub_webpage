@@ -118,11 +118,11 @@
   }
 
   .mobile-icon:before {
-    width: 66%;
+    width: 100%;
   }
 
   .mobile-icon:after {
-    width: 33%;
+    width: 100%;
   }
 
   .middle-line {

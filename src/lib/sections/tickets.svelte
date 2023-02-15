@@ -74,8 +74,6 @@
     text-align: center;
   }
   #tickets .background-image {
-    background-image: url("src/lib/assets/img/tickets.webp");
-
     position: fixed;
     top: 0;
     left: 0;

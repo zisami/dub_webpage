@@ -19,6 +19,7 @@
   <source srcset={src[9]} type="image/webp" media="(max-width: 768px)" />
   <source srcset={src[10]} type="image/avif" media="(max-width: 768px)" />
   <source srcset={src[11]} type="image/jpg" media="(max-width: 768px)" />
+
   <img src={src[src.length - 1]} {alt} />
 </picture>
 

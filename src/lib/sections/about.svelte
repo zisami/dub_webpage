@@ -2,6 +2,8 @@
   import OpenMap from "../map/open-map.svelte";
   import Picture from "../elements/picture.svelte";
   import Background from "$lib/assets/img/info_b.jpg?width=320;480;640;768&format=webp;avif;jpg";
+  import img1 from "$lib/assets/img/schild.jpg?width=320;480;640;768&format=webp;avif;jpg";
+  import img2 from "$lib/assets/img/dub_2.jpg?width=320;480;640;768&format=webp;avif;jpg";
 </script>
 
 <section id="about">
@@ -19,6 +21,7 @@
   </ul>
   <br />
   <hr />
+
   <h4 class="title">Camping</h4>
   <ul>
     <li>
@@ -47,8 +50,7 @@
     </li>
   </ul>
   <br />
-
-  <hr />
+  <Picture src={img1} alt="Background Image" />
   <ul>
     <h4 class="title">Consens + Sonstiges</h4>
 
@@ -84,7 +86,7 @@
     </li>
   </ul>
   <br />
-
+  <Picture src={img2} alt="Background Image" />
   <hr />
   <p>
     Das Dubstetten Festival wird von dem gemeinnützigen Verein Bele organisiert,
@@ -96,8 +98,6 @@
     am 21. & 22. Juli 2023.
   </h4>
   <OpenMap />
-
-  <!-- <Picture src={dub1} alt="dub together" /> -->
 </section>
 
 <style>
