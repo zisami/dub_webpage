@@ -9,6 +9,7 @@
     { label: "Line-Up", href: "/lineup" },
     { label: "Info", href: "/about" },
     { label: "Contact", href: "/contact" },
+    { label: "Gallery", href: "/gallery" },
   ];
 
   const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);
