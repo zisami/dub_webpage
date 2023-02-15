@@ -1,4 +1,7 @@
 <script lang="ts">
+  import Picture from "../elements/picture.svelte";
+  import Background from "$lib/assets/img/tickets.jpg?width=320;480;640;768&format=webp;avif;jpg";
+
   import { onMount } from "svelte";
   const settings = {
     headers: {
@@ -27,10 +30,10 @@
 </script>
 
 <section id="tickets">
-  <div
-    class="background-image"
-    style="background-image: url(src/lib/assets/img/tickets.webp);"
-  />
+  <div class="background-image">
+    <Picture src={Background} alt="Background Image" />
+  </div>
+
   <h3 class="title">Tickets</h3>
   <h4>Bald ist es soweit!</h4>
   <p>
@@ -71,6 +74,8 @@
     text-align: center;
   }
   #tickets .background-image {
+    background-image: url("src/lib/assets/img/tickets.webp");
+
     position: fixed;
     top: 0;
     left: 0;

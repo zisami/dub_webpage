@@ -1,11 +1,13 @@
 <script>
+  import Picture from "../elements/picture.svelte";
+  import Background from "$lib/assets/img/lineup.jpg?width=320;480;640;768&format=webp;avif;jpg";
 </script>
 
 <section id="lineup">
-  <div
-    class="background-image"
-    style="background-image: url(src/lib/assets/img/lineup.webp);"
-  />
+  <div class="background-image">
+    <Picture src={Background} alt="Background Image" />
+  </div>
+
   <h3 class="title">Line-Up</h3>
   <p>
     Auf der Dub Stage erwartet euch der beste Sound mit internationalen und
@@ -29,7 +31,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     background-size: cover;
     background-color: #2196f3;
     opacity: 0.15;

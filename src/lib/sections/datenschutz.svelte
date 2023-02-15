@@ -5,60 +5,100 @@
   <h3 class="title">Datenschutz</h3>
 
   <p>
-    Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch,
-    §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.
-    MusterVerein ZVR: 123456789 Musterstrasse 1, Stiege 1 Tür 1, 1234
-    Musterhausen, Österreich Organschaftliche Vertreter Obmann/Obfrau: Max
-    Mustermann Obmann/Obfrau Stellvertreter: Max Mustermann Vereinssitz: 1234
-    Musterhausen Tel.: 01234/56789 Fax: 01234/56789-0 E-Mail:
-    office@musterfirma.com Vereinszweck: Bitte Vereinszweck angeben Kontaktdaten
-    des Verantwortlichen für Datenschutz Sollten Sie Fragen zum Datenschutz
-    haben, finden Sie nachfolgend die Kontaktdaten der verantwortlichen Person
-    bzw. Stelle: Musterfirma GmbH Musterstraße 47, 12312 Musterstadt, Musterland
-    Vertretungsberechtigt: Markus Mustermann E-Mail-Adresse:
-    office@musterfirma.com Telefon: 01234/56789 Impressum:
-    https://www.testfirma.at/impressum/ EU-Streitschlichtung Gemäß Verordnung
-    über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung)
-    möchten wir Sie über die Online-Streitbeilegungsplattform (OS-Plattform)
-    informieren. Verbraucher haben die Möglichkeit, Beschwerden an die Online
-    Streitbeilegungsplattform der Europäischen Kommission unter
-    http://ec.europa.eu/odr?tid=121890433 zu richten. Die dafür notwendigen
-    Kontaktdaten finden Sie oberhalb in unserem Impressum. Wir möchten Sie
-    jedoch darauf hinweisen, dass wir nicht bereit oder verpflichtet sind, an
-    Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
-    teilzunehmen. Haftung für Inhalte dieser Website Wir entwickeln die Inhalte
-    dieser Website ständig weiter und bemühen uns korrekte und aktuelle
-    Informationen bereitzustellen. Leider können wir keine Haftung für die
-    Korrektheit aller Inhalte auf dieser Website übernehmen, speziell für jene,
-    die seitens Dritter bereitgestellt wurden. Als Diensteanbieter sind wir
-    nicht verpflichtet, die von ihnen übermittelten oder gespeicherten
-    Informationen zu überwachen oder nach Umständen zu forschen, die auf eine
-    rechtswidrige Tätigkeit hinweisen. Unsere Verpflichtungen zur Entfernung von
-    Informationen oder zur Sperrung der Nutzung von Informationen nach den
-    allgemeinen Gesetzen aufgrund von gerichtlichen oder behördlichen
-    Anordnungen bleiben auch im Falle unserer Nichtverantwortlichkeit davon
-    unberührt. Sollten Ihnen problematische oder rechtswidrige Inhalte
-    auffallen, bitte wir Sie uns umgehend zu kontaktieren, damit wir die
-    rechtswidrigen Inhalte entfernen können. Sie finden die Kontaktdaten im
-    Impressum. Haftung für Links auf dieser Website Unsere Website enthält Links
-    zu anderen Websites für deren Inhalt wir nicht verantwortlich sind. Haftung
-    für verlinkte Websites besteht für uns nicht, da wir keine Kenntnis
-    rechtswidriger Tätigkeiten hatten und haben, uns solche Rechtswidrigkeiten
-    auch bisher nicht aufgefallen sind und wir Links sofort entfernen würden,
-    wenn uns Rechtswidrigkeiten bekannt werden. Wenn Ihnen rechtswidrige Links
-    auf unserer Website auffallen, bitte wir Sie uns zu kontaktieren. Sie finden
-    die Kontaktdaten im Impressum. Urheberrechtshinweis Alle Inhalte dieser
-    Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte
-    fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten,
-    vervielfältigen oder verwerten wie zum Beispiel auf anderen Websites erneut
-    veröffentlichen. Falls notwendig, werden wir die unerlaubte Nutzung von
-    Teilen der Inhalte unserer Seite rechtlich verfolgen. Sollten Sie auf dieser
-    Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns
-    zu kontaktieren. Bildernachweis Die Bilder, Fotos und Grafiken auf dieser
-    Webseite sind urheberrechtlich geschützt. Die Bilderrechte liegen bei den
-    folgenden Fotografen und Unternehmen: Fotograf Mustermann Alle Texte sind
-    urheberrechtlich geschützt. Quelle: Erstellt mit dem Impressum Generator von
-    AdSimple
+    <b>Grundlegendes</b><br />
+    Diese Datenschutzerklärung soll die Nutzer dieser Website über die Art, den Umfang
+    und den Zweck der Erhebung und Verwendung personenbezogener Daten durch den Websitebetreiber
+    Verein BELE informieren.<br />
+    Der Websitebetreiber nimmt Ihren Datenschutz sehr ernst und behandelt Ihre personenbezogenen
+    Daten vertraulich und entsprechend der gesetzlichen Vorschriften. Da durch neue
+    Technologien und die ständige Weiterentwicklung dieser Webseite Änderungen an
+    dieser Datenschutzerklärung vorgenommen werden können, empfehlen wir Ihnen sich
+    die Datenschutzerklärung in regelmäßigen Abständen wieder durchzulesen. Definitionen
+    der verwendeten Begriffe (z.B. “personenbezogene Daten” oder “Verarbeitung”)
+    finden Sie in Art. 4 DSGVO.<br /><br />
+
+    <b>Zugriffsdaten</b><br />
+    Wir, der Websitebetreiber bzw. Seitenprovider, erheben aufgrund unseres berechtigten
+    Interesses (s. Art. 6 Abs. 1 lit. f. DSGVO) Daten über Zugriffe auf die Website
+    und speichern diese als „Server-Logfiles“ auf dem Server der Website ab. Folgende
+    Daten werden so protokolliert:<br />
+    - Besuchte Website - Uhrzeit zum Zeitpunkt des Zugriffes - Menge der gesendeten
+    Daten in Byte - Quelle/Verweis, von welchem Sie auf die Seite gelangten - Verwendeter
+    Browser - Verwendetes Betriebssystem - Verwendete IP-Adresse<br /><br />
+    Die Server-Logfiles werden für maximal 7 Tage gespeichert und anschließend gelöscht.
+    Die Speicherung der Daten erfolgt aus Sicherheitsgründen, um z. B. Missbrauchsfälle
+    aufklären zu können. Müssen Daten aus Beweisgründen aufgehoben werden, sind sie
+    solange von der Löschung ausgenommen bis der Vorfall endgültig geklärt ist.<br
+    /><br />
+
+    <b>Reichweitenmessung & Cookies</b><br />
+    Diese Website verwendet Cookies zur pseudonymisierten Reichweitenmessung, die
+    entweder von unserem Server oder dem Server Dritter an den Browser des Nutzers
+    Muster von datenschutz.org<br />
+    übertragen werden. Bei Cookies handelt es sich um kleine Dateien, welche auf
+    Ihrem Endgerät gespeichert werden. Ihr Browser greift auf diese Dateien zu. Durch
+    den Einsatz von Cookies erhöht sich die Benutzerfreundlichkeit und Sicherheit
+    dieser Website. Falls Sie nicht möchten, dass Cookies zur Reichweitenmessung
+    auf Ihrem Endgerät gespeichert werden, können Sie dem Einsatz dieser Dateien
+    hier widersprechen: - Cookie-Deaktivierungsseite der Netzwerkwerbeinitiative:<br
+    />
+    http://optout.networkadvertising.org/?c=1#!/<br />
+    - Cookie-Deaktivierungsseite der US-amerikanischen Website:<br />
+    http://optout.aboutads.info/?c=2#!/<br />
+    - Cookie-Deaktivierungsseite der europäischen Website:<br />
+    http://optout.networkadvertising.org/?c=1#!/<br /><br />
+    Gängige Browser bieten die Einstellungsoption, Cookies nicht zuzulassen. Hinweis:
+    Es ist nicht gewährleistet, dass Sie auf alle Funktionen dieser Website ohne
+    Einschränkungen zugreifen können, wenn Sie entsprechende Einstellungen vornehmen.<br
+    /><br />
+    Erfassung und Verarbeitung personenbezogener Daten<br /><br />
+    Der Websitebetreiber erhebt, nutzt und gibt Ihre personenbezogenen Daten nur
+    dann weiter, wenn dies im gesetzlichen Rahmen erlaubt ist oder Sie in die Datenerhebung
+    einwilligen. Als personenbezogene Daten gelten sämtliche Informationen, welche
+    dazu dienen, Ihre Person zu bestimmen und welche zu Ihnen zurückverfolgt werden
+    können – also beispielsweise Ihr Name, Ihre E-Mail-Adresse und Telefonnummer.<br
+    /><br />
+    Diese Website können Sie auch besuchen, ohne Angaben zu Ihrer Person zu machen.
+    Zur Verbesserung unseres Online-Angebotes speichern wir jedoch (ohne Personenbezug)
+    Ihre Zugriffsdaten auf diese Website. Zu diesen Zugriffsdaten gehören z. B. die
+    von Ihnen angeforderte Datei oder der Name Ihres Internet-Providers. Durch die
+    Anonymisierung der Daten sind Rückschlüsse auf Ihre Person nicht möglich.<br
+    /><br />
+
+    <b>Umgang mit Kontaktdaten</b><br />
+    Nehmen Sie mit uns als Websitebetreiber durch die angebotenen Kontaktmöglichkeiten
+    Verbindung auf, werden Ihre Angaben gespeichert, damit auf diese zur Bearbeitung
+    und Beantwortung Ihrer Anfrage zurückgegriffen werden kann. Ohne Ihre Einwilligung
+    werden diese Daten nicht an Dritte weitergegeben<br /><br />
+
+    <b>Rechte des Nutzers</b><br />
+    Sie haben als Nutzer das Recht, auf Antrag eine kostenlose Auskunft darüber zu
+    erhalten, welche personenbezogenen Daten über Sie gespeichert wurden. Sie haben
+    außerdem das Recht auf Berichtigung falscher Daten und auf die Verarbeitungseinschränkung
+    oder Löschung Ihrer personenbezogenen Daten. Falls zutreffend, können Sie auch
+    Ihr Recht auf Datenportabilität geltend machen. Sollten Sie annehmen, dass Ihre
+    Daten unrechtmäßig verarbeitet wurden, können Sie eine Beschwerde bei der zuständigen
+    Aufsichtsbehörde einreichen.<br /><br />
+
+    <b>Löschung von Daten</b><br />
+    Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten
+    (z. B. Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf Löschung
+    Ihrer Daten. Von uns gespeicherte Daten werden, sollten sie für ihre Zweckbestimmung
+    nicht mehr vonnöten sein und es keine gesetzlichen Aufbewahrungsfristen geben,
+    gelöscht. Falls eine Löschung nicht durchgeführt werden kann, da die Daten für
+    zulässige gesetzliche Zwecke erforderlich sind, erfolgt eine Einschränkung der
+    Datenverarbeitung. In diesem Fall werden die Daten gesperrt und nicht für andere
+    Zwecke verarbeitet.<br /><br />
+
+    <b>Widerspruchsrecht</b><br />
+    Nutzer dieser Webseite können von ihrem Widerspruchsrecht Gebrauch machen und
+    der Verarbeitung ihrer personenbezogenen Daten zu jeder Zeit widersprechen. Wenn
+    Sie eine Berichtigung, Sperrung, Löschung oder Auskunft über die zu Ihrer Person
+    gespeicherten personenbezogenen Daten wünschen oder Fragen bzgl. der Erhebung,
+    Verarbeitung oder Verwendung Ihrer personenbezogenen Daten haben oder erteilte
+    Einwilligungen widerrufen möchten, wenden Sie sich bitte an folgende E-Mail-Adresse:<br
+    />
+    verein-bele@posteo.org
   </p>
 </section>
 

@@ -1,15 +1,13 @@
 <script>
   import OpenMap from "../map/open-map.svelte";
   import Picture from "../elements/picture.svelte";
-  import dub1 from "$lib/assets/img/dub_1.jpg?width=320;480;640;768&format=webp;avif;jpg";
-  console.log(dub1);
+  import Background from "$lib/assets/img/info_b.jpg?width=320;480;640;768&format=webp;avif;jpg";
 </script>
 
 <section id="about">
-  <div
-    class="background-image"
-    style="background-image: url(src/lib/assets/img/info_b.webp);"
-  />
+  <div class="background-image">
+    <Picture src={Background} alt="Background Image" />
+  </div>
   <h3 class="title">Info</h3>
   <h4>Hardfacts</h4>
   <ul>
@@ -19,6 +17,7 @@
     <li>Holzofenpizza</li>
     <li>Kinderprogramm</li>
   </ul>
+  <br />
   <hr />
   <h4 class="title">Camping</h4>
   <ul>
@@ -47,6 +46,8 @@
       möglichst ruhig am Campingplatz.
     </li>
   </ul>
+  <br />
+
   <hr />
   <ul>
     <h4 class="title">Consens + Sonstiges</h4>
@@ -82,6 +83,8 @@
       bezauberndes Wochenende gefüllt mit Musik, Spiel und Genuss zu verbringen.
     </li>
   </ul>
+  <br />
+
   <hr />
   <p>
     Das Dubstetten Festival wird von dem gemeinnützigen Verein Bele organisiert,
