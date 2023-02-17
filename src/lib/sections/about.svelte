@@ -16,18 +16,18 @@
     <li>Kinderprogramm</li>
   </ul>
   <br />
-  <hr />
+  <Picture src={img1} alt="Background Image" />
 
-  <h4 class="title">Camping</h4>
+  <h4 class="title">Good to know?</h4>
   <ul>
     <li>
-      Respect the nature: Hinterlasse keinen Müll, Zigaretten gehören in die
+      Respect the nature: Hinterlasse keinen Müll, Zigaretten gehören in den
       Aschenbecher
     </li>
 
     <li>
-      Erlebe eine erfrischende Dusche auf unserem Festival und erfrischt euch
-      für weitere Abenteuer.
+      Erlebe eine erfrischende Dusche auf unserem Festival und kühlt euch für
+      weitere Abenteuer ab.
     </li>
     <li>
       Sowohl Lagerfeuer am Campingplatz als auch das Rauchen in Waldrandnähe ist
@@ -44,17 +44,12 @@
       Denk daran, dass Kinder schlafen könnten, also verhalte dich nachts
       möglichst ruhig am Campingplatz.
     </li>
-  </ul>
-  <br />
-  <Picture src={img1} alt="Background Image" />
-  <ul>
-    <h4 class="title">Consens + Sonstiges</h4>
-
-    <li>Es gibt einen Teich im Ort, den man zu Fuß erreichen kann.</li>
     <li>
       Bedenke, dass am Festivalgelände ein landwirtschaftlicher Betrieb ansässig
       ist, darum bitten wir dich, abgesperrte private Flächen zu respektieren.
     </li>
+    <li>Es gibt einen Teich im Ort, den man zu Fuß erreichen kann.</li>
+
     <li>
       Hunde bitte an die Leine!
       <br />

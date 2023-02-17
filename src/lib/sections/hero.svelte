@@ -32,10 +32,10 @@
 
   #hero .background-image {
     position: fixed;
+    background-size: cover;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+
     background-size: cover;
     z-index: -1;
     background-color: #257dc5;
@@ -57,11 +57,6 @@
   img {
     width: 100%;
     margin-top: -3vw;
-  }
-
-  h1 {
-    text-align: center;
-    font: 80px own;
   }
 
   h2 {

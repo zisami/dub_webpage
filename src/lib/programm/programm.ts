@@ -14,7 +14,7 @@ export type ProgrammItem = {
 
 export const programm: ProgrammItem[] = [
   {
-    startsAt: "February 2023",
+    startsAt: "Now",
     title: "Early Dub Tickets",
     description:
       "Sicher dir dein Ticket bei Eventbrite.",
@@ -26,7 +26,7 @@ export const programm: ProgrammItem[] = [
   {
     title: "Danubian Dub",
     description: "Danubian Dub dubs your Brain out",
-    startsAt: "Fr. 22. July 2023 18 - 00 Uhr",
+    startsAt: "Fr. 22. July 2023 - 18 Uhr",
     slug: "danubian-dub",
     thumbnail: danubianDub,
     longDesciption: `Soundsystem, producer & organizer of the event series „Vienna Dubwise“ and the „Dubstetten“ festival. Hosting local to international artists such as: Alpha Steppa, Sinai, Wicked & Bonny, Elemental Wave, Toroki & Isayah, Dubbing Sun, and many more.
@@ -46,7 +46,7 @@ export const programm: ProgrammItem[] = [
   {
     title: "Lion`s Den",
     description: "Lion’s Den is a label, a sound system, a studio and a production and promotion force from Berlin, Germany.",
-    startsAt: "Sa. 22. July 2023 00 - 04 Uhr",
+    startsAt: "Sa. 22. July 2023 - Mitternacht",
     slug: "lions-den",
     thumbnail: lionsDen,
     longDesciption: `LION'S DEN [Berlin // GER]
@@ -79,9 +79,11 @@ export const programm: ProgrammItem[] = [
   },
   {
     title: "Wicked and Bonny",
-    description: "Lion`s Den dubs your Brain out",
-    startsAt: "Fr. 21. July 2023 00 - 04 Uhr",
+    description: "Sometimes Wicked - sometimes Bonny! Founded in 2015 - based in a Studio in Silandro, Bolzano.",
+    startsAt: "Fr. 21. July 2023 - Mitternacht",
+    slug: "wicked-bonny",
     thumbnail: wickedAndBonny,
+    longDesciption: `Sometimes Wicked - sometimes Bonny! Two words representing their own style of music! Founded in 2015 - based in a Studio in Silandro, Bolzano. Roots Music, Rebel Music, Experimental Music. Straightbase Dubs in a digital and rough analog way, Rub-a-Dub Style, endless delays, sirens and live effects, produced for a hectic tour plan on the weekends on Soundsystem Sessions and Festival Stages! Since 2015 upon the road, playing more than 400 Club Shows, Soundsystem Sessions and Festival Stages in all over Europe. Wicked and Bonny crew built a Soundsystem called Botheration Hifi in spring time 2015. They are hosting a different regular Sessions and Festivals in Bolzano and keep pushing the local underground music scene since almost 10 years now... After releasing 2 Albums, a few Singles, EP's and different Label Collaborations. Wicked and Bonny Records was founded in 2021 that is not only label. The goal of Wicked And Bonny Records is to create a Label to promote music, art and work as a group of friends, looking for constant innovative ways of promotion and bringing people together. So the team got bigger and so Graphic, video, communication and musical distribution experts working on one mission: let's bother the system with music and love.`,
   },
 
   // {
