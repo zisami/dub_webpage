@@ -29,7 +29,7 @@
     align-items: center;
     text-align: center;
     background-color: #615a51b1;
-    padding: 1.6rem 1rem;
+    padding: 1rem 1rem;
     z-index: 100;
   }
 

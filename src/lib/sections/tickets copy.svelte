@@ -1,4 +1,29 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+  const settings = {
+    headers: {
+      Authorization: "Bearer ",
+    },
+  };
+  type Ticket = {
+    free: number;
+    total: number;
+  };
+  let tickets: Ticket;
+  onMount(async () => {
+    tickets = await fetch(
+      "https://www.eventbriteapi.com/v3/events/509314502387/capacity_tier/",
+      settings
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        return {
+          free: data.capacity_total - data.capacity_sold,
+          total: data.capacity_total,
+        };
+      });
+  });
 </script>
 
 <section id="tickets">
@@ -14,10 +39,18 @@
     naturbelassenen Umfeld des Eichhornhofs. Lasst uns gemeinsam auf dieses
     Abenteuer gehen, indem du dir dein Ticket sicherst!
   </p>
-  <a
-    href="https://www.eventbrite.com/e/dubstetten-tickets-509314502387"
-    class="btn">Sicher dir ein Ticket</a
-  >
+  <hr />
+  {#if tickets}
+    {#if tickets.free > 0}
+      <p>
+        <span class="free-tickets">{tickets.free}</span> Tickets left from total
+        available
+        <span class="total-tickets">{tickets.total} </span>Weekendpasses
+      </p>
+    {:else}
+      Sorry we are solde out.
+    {/if}
+  {/if}
 </section>
 
 <style>
@@ -28,6 +61,14 @@
   p {
     font: 20px dosis;
     text-align: center;
+  }
+
+  .free-tickets {
+    color: darkgreen;
+    font-weight: bold;
+  }
+  .total-tickets {
+    color: darkslategray;
   }
 
   .btn {

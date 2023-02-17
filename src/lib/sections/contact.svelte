@@ -1,15 +1,11 @@
 <script>
   import OpenMap from "../map/open-map.svelte";
   import Picture from "../elements/picture.svelte";
-  import Background from "$lib/assets/img/kontakt.jpg?width=320;480;640;768&format=webp;avif;jpg";
   import eichhorn from "$lib/assets/img/eichhorn_icon.png?width=320;480;640;768&format=webp;avif;jpg";
   import danubian from "$lib/assets/img/danubian_icon.jpeg?width=320;480;640;768&format=webp;avif;jpg";
 </script>
 
 <section id="contact" class="contact">
-  <div class="background-image">
-    <Picture src={Background} alt="Background Image" />
-  </div>
   <h3 class="title">Contact</h3>
   <h4>Verein BELE</h4>
   <p>
@@ -57,17 +53,6 @@
 </section>
 
 <style>
-  #contact .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-color: #2196f3;
-    opacity: 0.15;
-    z-index: -1;
-  }
   h4 {
     font: 28px own;
     text-align: center;

@@ -1,15 +1,13 @@
 <script>
-  import Picture from "../elements/picture.svelte";
-  import Background from "$lib/assets/img/hero2.jpg?width=320;480;640;768&format=webp;avif;jpg";
 </script>
 
 <section id="hero">
   <div class="background-image">
-    <Picture src={Background} alt="Background Image" />
+    <img src="src/lib/assets/img/hero2.jpg" alt="home image" />
   </div>
 
   <div class="wrapper">
-    <h1>Dubstetten</h1>
+    <img src="src/lib/assets/img/logo_baumkreis.svg" alt="logo baumkreis" />
     <h2>nature - music -family</h2>
     <h3>21. &amp; 22. July 2023</h3>
   </div>

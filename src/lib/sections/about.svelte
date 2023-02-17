@@ -1,15 +1,11 @@
 <script>
   import OpenMap from "../map/open-map.svelte";
   import Picture from "../elements/picture.svelte";
-  import Background from "$lib/assets/img/info_b.jpg?width=320;480;640;768&format=webp;avif;jpg";
   import img1 from "$lib/assets/img/schild.jpg?width=320;480;640;768&format=webp;avif;jpg";
   import img2 from "$lib/assets/img/dub_2.jpg?width=320;480;640;768&format=webp;avif;jpg";
 </script>
 
 <section id="about">
-  <div class="background-image">
-    <Picture src={Background} alt="Background Image" />
-  </div>
   <h3 class="title">Info</h3>
   <h4>Hardfacts</h4>
   <ul>
@@ -112,17 +108,6 @@
   h4 {
     font: 28px own;
     text-align: center;
-  }
-  #about .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-color: #2196f3;
-    opacity: 0.15;
-    z-index: -1;
   }
 
   ul {
